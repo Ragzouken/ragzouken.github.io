@@ -1,0 +1,10 @@
+name,COOLBOY
+follow,panic
+
+script,panic
+move,random
+follow,panic
+
+script,bump
+move,random
+follow,panic
