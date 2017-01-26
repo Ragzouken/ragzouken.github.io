@@ -17,16 +17,18 @@
       <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
       <div class="title">kooltool</div>
     </div>
-    <input type="text" name="gistid" id="gistid">
     <script type='text/javascript'>
   var Module = {
-    TOTAL_MEMORY: 805306368,
+    TOTAL_MEMORY: 268435456,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
     compatibilitycheck: null,
+    backgroundColor: "#000000",
+    splashStyle: "Light",
     dataUrl: "Release/kooltool-webgl.data",
     codeUrl: "Release/kooltool-webgl.js",
+    asmUrl: "Release/kooltool-webgl.asm.js",
     memUrl: "Release/kooltool-webgl.mem",
-    
+    debugSymbolsUrl: "Release/kooltool-webgl.debugSymbols.js",
   };
 </script>
 <script src="Release/UnityLoader.js"></script>
